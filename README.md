@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 
 ### структура бд
 ![image](https://user-images.githubusercontent.com/64567995/123546724-7422b600-d766-11eb-90bb-a82406897ac7.png)
-одна таблица с пользователем, которая хранит его логин пароль и выбранный пункт в голосовании
+одна таблица с пользователями, которая хранит их логины, пароли и выбранные пункты в голосовании
 
 ### main page
 ![image](https://user-images.githubusercontent.com/64567995/123546761-a502eb00-d766-11eb-9678-1dab4ea1bcfc.png)
