@@ -3,17 +3,28 @@
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+запуск приложения
+откройте [http://localhost:3000](http://localhost:3000)
 
 ### `npm server`
 
 запуск серверной части приложения <br/>
 реализовано на express js <br/>
-port = 4000
+port = 4000 <br/>
+для подключения к бд надо зайти в src/db.js и настроить файл конфигурации, нужно заменить password и database на соответствующие вашим данным в бд<br/>
+в бд надо создать таблицу(нужно открыть postgresql консоль) командой
+CREATE TABLE person(<br/>
+  id SERIAL PRIMARY KEY,<br/>
+  login VARCHAR(255),<br/>
+  password VARCHAR(255),<br/>
+  vote VARCHAR(255)<br/>
+};<br/>
+<br/>
+также стоит добавить хотя бы одного пользователя в бд<br/>
+INSERT INTO person VALUES (1, 'test1@gmail.com', '123456');<br/>
+1 - id пользователя<br/>
+test1@gmail.com - логин<br/>
+123456 - пароль<br/>
 
 ### структура бд
 ![image](https://user-images.githubusercontent.com/64567995/123546724-7422b600-d766-11eb-90bb-a82406897ac7.png)<br/>
