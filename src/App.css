@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.formContainer {
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.radioBtn {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.authContainer {
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.authDiv {
+    margin-top: 150px;
 }
