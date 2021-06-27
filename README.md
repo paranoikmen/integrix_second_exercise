@@ -12,7 +12,7 @@
 реализовано на express js <br/>
 port = 4000 <br/>
 для подключения к бд надо зайти в src/db.js и настроить файл конфигурации, нужно заменить password и database на соответствующие вашим данным в бд<br/>
-в бд надо создать таблицу(нужно открыть postgresql консоль) командой
+в бд надо создать таблицу(нужно открыть postgresql консоль) командой<br/>
 CREATE TABLE person(<br/>
   id SERIAL PRIMARY KEY,<br/>
   login VARCHAR(255),<br/>
