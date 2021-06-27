@@ -11,11 +11,12 @@ You will also see any lint errors in the console.
 
 ### `npm server`
 
-запуск серверной части приложения
-реализовано на express js
+запуск серверной части приложения <br/>
+реализовано на express js <br/>
+port = 4000
 
 ### структура бд
-![image](https://user-images.githubusercontent.com/64567995/123546724-7422b600-d766-11eb-90bb-a82406897ac7.png)
+![image](https://user-images.githubusercontent.com/64567995/123546724-7422b600-d766-11eb-90bb-a82406897ac7.png)<br/>
 одна таблица с пользователями, которая хранит их логины, пароли и выбранные пункты в голосовании
 
 ### main page
